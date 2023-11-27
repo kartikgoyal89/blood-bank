@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* overflow: hidden; */
+}
+
+/* FORM CSS */
+.form-banner img{
+    object-fit: cover;
+    height: 80%;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.inner-container{
+    border: 1px solid black;
+    padding: 50px 70px;
+    margin-right: 240px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: white;
+    line-height: 13px;
+}
+
+.inner-container .input-field{
+    width: 300px;
+    border: 0.1px solid rgba(128, 128, 128, 0.37);
+}
+.inner-container label{
+    font-weight: 500;
+}
+
+.inner-container button{
+    width: 400px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.form-check-input{
+    margin-top: -0.5px;
+    padding: 0 -20px;
+}
+
+.form-check-label{
+    margin-right: 15px;
+}
+
+.login-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+.redirect{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+/* loader */
+
+.loader-container{
+    display: flex;
+    align-items: center;
+    margin: -86px;
+    justify-content: center;
+    height: 100vh;
+    width: 90vw;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.loader{
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgba(0,0,0,0.2);
+    border-bottom-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: black !important;
+    color: white !important;
+}
+
+.nav-link,.navbar-brand {
+    background-color: black !important;
+    font-weight: 500;
+    color: white !important;
+}
+.navbar-nav{
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.nav-link,.logout-btn{
+    margin-top: 10px;
+}
+
+.logout-btn{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.add-inventory{
+    border: none;
+    width: max-content;
+    padding: -4px 10px;
+    margin-top: 14px;
+    padding-right: 20px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: rgb(143, 156, 2);
+    margin-bottom: 50px;
+}
+
+.add-inventory h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.donar-heading{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.main-logo-redirect{
+    text-decoration: none;
+    color: inherit
+}
+.analytics{
+    margin-left: 50px;
+    margin-top: 20px;
+} 
+
+
+.admin-desc{
+    text-align: justify;
+    margin-right: 35px;
+}
